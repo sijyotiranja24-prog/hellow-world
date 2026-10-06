@@ -1,0 +1,201 @@
+nav{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100px;
+			background: black;
+		}
+		.logo-container,.link-container{
+			width: 50%;
+		}
+		.logo-container{
+			display: flex;
+			justify-content: left;
+			align-items: center;
+			gap: 30px;
+		}
+		.logo-container img{
+			height: 100px;
+			width: 90px;
+			gap: 20px;
+			margin: 30px;
+
+		}
+		.link-container{
+			display: flex;
+			justify-content: center;
+			align-items: ;
+			gap: 20px;
+		}
+		.link-container a{
+			font-size: 30px;
+			text-decoration: none;
+			color: red;
+
+		}
+		.hero{
+		
+			background: paleturquoise;
+			padding: 30px;
+		}
+		.hero img{
+			width: 100%;
+		}
+		h1{
+			text-align: center;
+			justify-content: center;
+			align-items: center;
+		}
+		.parent{
+			display: flex;
+			background-color: whitesmoke;
+			gap: 50px;
+			padding: 30px;
+		}
+		.child1,.child2{
+			width: 50%;
+		}
+		.child1{
+			background: ghostwhite;
+			padding: 30px;
+			font-size: 30px;
+		}
+		.child2{
+			background: black;
+			padding: 30px;
+			text-align: center;
+		}
+		.photo{
+			display: flex;
+			background-color: whitesmoke;
+	
+	
+		}
+		.photo1{
+			height: 100%;
+			width: 100%;
+		}
+		.photo img{
+			height: 450px;
+			width: 350px;
+			padding: 30px;
+		}
+		.places{
+			display: flex;
+			gap: 20px;
+			flex-wrap: wrap;
+			padding: 100px;
+		}
+		.card{
+			display: flex;
+			flex-direction: column;
+			background: floralwhite;
+			padding: 20px;
+			border-radius: 20px;
+			height: 500px;
+			width: 300px;
+			align-items: center;
+			text-align: center;
+
+
+		}
+		.card img{
+			height: 250px;
+			width: 250px;
+			object-fit: cover;
+
+
+		}
+		.hotel{
+			display: flex;
+			background: ghostwhite;
+		}
+		.hotel1{
+			padding: 30px;
+			background: darkgrey;
+		}
+		.hotel1 img{
+			height: 600px;
+			width: 550px;
+		}
+		.hotel2{
+			font-size: 50px;
+		}
+		.main{
+			display: flex;
+			background: ghostwhite;
+		}
+		.hotel3{
+			padding: 30px;
+			background: darkgrey;
+		}
+		.hotel3 img{
+			height: 600px;
+			width: 550;
+		}
+		.hotel4{
+			font-size: 30px;
+		}
+		.footer {
+   			background-color: black;
+    		color: white;
+    		padding: 40px;
+    		display: flex;
+		}
+
+		.footer-box {
+   		 display: flex;
+   		 justify-content: center;
+		}
+
+		.footer-content {
+   			 width: 30%;
+   			 padding: 20px;
+		}
+
+		.footer-content h3 {
+    		 color: white;
+   			 font-size: 22px;
+		}
+
+		.footer-content p {
+    		color: lightgray;
+    		line-height: 25px;
+		}	
+
+		.footer-content a {
+    		display: block;
+   		    color: lightgray;
+    		text-decoration: none;
+    		margin: 10px;
+		}
+		.copyright {
+    		text-align: center;
+    		display: flex;
+		}
+
+		.copyright p {
+    		color:lightseagreen;
+		}
+		.child2:hover {
+    background-color: whitesmoke;
+    transform: translateY(-20px)
+	}
+	.photo:hover {
+    background-color: whitesmoke;
+    transform: translateY(-20px)
+	}
+	.hotel1:hover{
+    background-color: whitesmoke;
+    transform: translateY(-20px)
+	}
+	.hotel3:hover{
+		background: whitesmoke;
+    transform: translateY(-20px)
+
+	}
+	.card:hover{
+		background: whitesmoke;
+    transform: translateY(-20px)
+	}
+		
